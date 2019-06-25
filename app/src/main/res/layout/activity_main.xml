@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录 / 注册"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        />
+    <EditText
+        android:drawableLeft="@android:drawable/ic_menu_myplaces"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:digits="0123456789"
+        android:id="@+id/resetpwd_edit_name"
+        android:layout_alignParentTop="true"
+        android:hint="昵称"
+        />
+    <EditText
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:inputType="textPassword"
+        android:id="@+id/resetpwd_edit_pwd_old"
+        android:hint="密码"
+        />
+    <EditText
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:inputType="textPassword"
+        android:ems="0"
+        android:id="@+id/resetpwd_edit_pwd_new"
+        android:hint="确认密码" />
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="注册"
+        android:textColor="#000"
+        android:id="@+id/register_btn_sure"
+        android:textSize="20dp"
+        android:layout_marginTop="60dp"
+        />
+
+
+</LinearLayout>
