@@ -1,4 +1,4 @@
-package com.example.qiaolulu.register;
+﻿package com.example.qiaolulu.register;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBar;
@@ -14,6 +14,7 @@ import org.litepal.crud.DataSupport;
 
 import java.util.List;
 /**
+ *我修改了
  * @author:qiaolulu
  * @function:注册
  * @date:2019/06/25
